@@ -1,0 +1,21 @@
+.win{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color:beige;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}

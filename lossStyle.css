@@ -1,0 +1,17 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+ display: flex;
+ justify-content: center;
+}
+.bottomBar{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+body{
+    background-color: beige;
+}

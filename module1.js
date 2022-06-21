@@ -44,8 +44,7 @@ function processClick() {
             window.location.href="./win.html";
         }
         else if(computerChoice === "rock"){
-            drawCounter++;
-            console.log("draw");
+            alert("Draw... Try again")
         }
             break;
         case "paper":
@@ -54,8 +53,7 @@ function processClick() {
             window.location.href="./win.html";
            }
            else if(computerChoice === "paper"){
-            drawCounter++;
-            window.location.href="./draw.html";
+            alert("Draw... Try again")
            }
            else if(computerChoice === "scissors"){
             loseCounter++;
@@ -64,8 +62,7 @@ function processClick() {
             break;
         case "scissors":
            if(computerChoice === "scissors"){
-            drawCounter++;
-            window.location.href="./draw.html";
+            alert("Draw... Try again")
            }
            else if(computerChoice === "paper"){
             winCounter++;
