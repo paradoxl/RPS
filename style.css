@@ -1,0 +1,70 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+    
+} 
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.landing{
+    padding: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    position: absolute;
+    bottom: 0;
+}
+
+body{
+    background-image: url(backgroundImage.jpg) ;
+    color: white;
+}
+
+
+
+/* index page specific */
+
+.topBar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moves{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 250px;
+}
+
+.scoreCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    color: black;
+    background-color: white;
+    padding:25px;
+    border-radius: 25px;
+}
+
+.btns{
+    font-size: 25px;
+
+}
